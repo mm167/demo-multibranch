@@ -13,7 +13,7 @@ public class DemoMultibranchApplication {
 
 	@GetMapping("/")
 	public String getGreeting() {
-		return "<h2>Hello world - Dev .</h2>";
+		return "<h2>Hello world - Test .</h2>";
 	}
 
 }
