@@ -22,7 +22,7 @@
 
           stage('Deploy') {
             steps {
-                 sh 'echo "Deploying the application to dev server"'
+                 sh 'echo "Deploying the application to test from dev server"'
             }
           }
        }
