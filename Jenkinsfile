@@ -22,7 +22,7 @@
 
           stage('Deploy') {
             steps {
-                 sh 'echo "New Line"'
+                 sh 'echo "Deploying the application to dev server and new line"'
             }
           }
        }
